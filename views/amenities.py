@@ -2,7 +2,7 @@
 """ objects that handles all default RestFul API actions for Amenities"""
 from models.amenity import Amenity
 from models import storage
-from api.v1.views import app_views
+from views import app_views
 from flask import abort, jsonify, make_response, request
 from flasgger.utils import swag_from
 
